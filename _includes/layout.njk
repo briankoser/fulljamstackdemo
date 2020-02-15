@@ -1,12 +1,16 @@
+---
+title: NBA Jamstack
+---
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>NBA Jamstack</title>
+    <title>{{title}}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css">
 </head>
 
 <body>
-    <h1>Come on and slam and welcome to the jam</h1>
+    <h1>{{title}}</h1>
+    {{content | safe}}
 </body>
 </html>
