@@ -2,3 +2,8 @@
 layout: layout.njk
 ---
 <p>Come on and slam and welcome to the jam
+<ul>
+    {% for team in teams -%}
+    <li>{{team.strTeam}}
+    {% endfor %}
+</ul>
