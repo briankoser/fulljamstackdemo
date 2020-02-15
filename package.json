@@ -1,0 +1,22 @@
+{
+  "name": "nbajamstack",
+  "version": "1.0.0",
+  "description": "Full Jamstack demo for 2020 Lunch and Learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briankoser/nbajamstack.git"
+  },
+  "author": "Brian Koser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briankoser/nbajamstack/issues"
+  },
+  "homepage": "https://github.com/briankoser/nbajamstack#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
