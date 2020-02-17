@@ -1,0 +1,11 @@
+---
+layout: layout.njk
+pagination:
+    data: teams
+    size: 1
+    alias: team
+permalink: "teams/{{ team.strTeamShort | slug }}/"
+---
+
+<h2>{{ team.strTeam }}</h2>
+<img src={{team.strTeamLogo}} alt="Team logo" />
