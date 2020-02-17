@@ -4,6 +4,6 @@ layout: layout.njk
 <p>Come on and slam and welcome to the jam
 <ul>
     {% for team in teams -%}
-    <li>{{team.strTeam}}
+    <li><a href="/teams/{{team.strTeamShort | slug}}">{{team.strTeam}}</a>
     {% endfor %}
 </ul>
